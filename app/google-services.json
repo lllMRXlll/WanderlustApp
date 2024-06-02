@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "471098426666",
+    "firebase_url": "https://wanderlustapp-8fab7-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "wanderlustapp-8fab7",
+    "storage_bucket": "wanderlustapp-8fab7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471098426666:android:04f40ad149d29e78c4ca53",
+        "android_client_info": {
+          "package_name": "com.example.wanderlustapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz5SEbq3G0NHSXErOj94YupusDEazSYfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

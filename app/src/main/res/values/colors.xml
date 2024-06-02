@@ -3,4 +3,14 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#777777</color>
+    <color name="rose">#F72585</color>
+    <color name="fandango">#B5179E</color>
+    <color name="grape">#7209B7</color>
+    <color name="chrysler_blue">#560BAD</color>
+    <color name="dark_blue">#480CA8</color>
+    <color name="zaffre">#3A0CA3</color>
+    <color name="palatinate_blue">#3F37C9</color>
+    <color name="neon_blue">#4361EE</color>
+    <color name="chefchaouen_blue">#4895EF</color>
+    <color name="cyan">#4CC9F0</color>
 </resources>
