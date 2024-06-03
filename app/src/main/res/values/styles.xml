@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Базовая тема приложения. -->
+    <style name="Theme.App" parent="Theme.Material3.DayNight">
+        <!-- Другие атрибуты темы ... -->
+
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+        <item name="android:windowEnterAnimation">@anim/enter_from_right</item>
+        <item name="android:windowExitAnimation">@anim/exit_to_left</item>
+    </style>
+
+    <!-- Стиль для всех BottomNavigationView в приложении -->
+    <style name="Widget.App.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.BottomNavigationView</item>
+        <item name="android:windowEnterAnimation">@anim/enter_from_right</item>
+        <item name="android:windowExitAnimation">@anim/exit_to_left</item>
+    </style>
+
+    <!-- Наложение темы для BottomNavigationView -->
+    <style name="ThemeOverlay.App.BottomNavigationView" parent="">
+        <item name="colorSurface">@color/rose</item>
+        <item name="colorOnSurfaceVariant">@color/cyan</item>
+        <item name="colorSecondaryContainer">@color/rose</item>
+        <item name="android:windowEnterAnimation">@anim/enter_from_right</item>
+        <item name="android:windowExitAnimation">@anim/exit_to_left</item>
+        <!-- Другие атрибуты для BottomNavigationView ... -->
+    </style>
+</resources>

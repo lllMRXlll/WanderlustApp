@@ -18,9 +18,29 @@
     <string name="password_example">your password</string>
     <string name="username_example">your name</string>
     <!-- Fragments -->
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
+    <string name="title_explore">Explore</string>
     <string name="title_notifications">Notifications</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="title_profile">Profile</string>
+    <string name="text_one_explore_fragment">Discover a Different World</string>
+    <string name="recommended">Recommended</string>
+    <string name="view_all">View All</string>
+    <string name="flight">Flight</string>
+    <string name="hotels">Hotels</string>
+    <string name="trips">Trips</string>
+    <string name="foods">Foods</string>
+    <string name="italy">Italy</string>
+    <string name="amalfi">Amalfi</string>
+    <string name="england">England</string>
+    <string name="london">London</string>
+    <string name="japan">Japan</string>
+    <string name="tokyo">Tokyo</string>
+    <string name="spain">Spain</string>
+    <string name="barcelona">Barcelona</string>
+    <string name="france">France</string>
+    <string name="paris">Paris</string>
+    <string name="united_arab_emirates">UAE</string>
+    <string name="dubai">Dubai</string>
 
 
 </resources>

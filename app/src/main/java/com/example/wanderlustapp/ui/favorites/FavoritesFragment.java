@@ -1,4 +1,4 @@
-package com.example.wanderlustapp.ui.home;
+package com.example.wanderlustapp.ui.favorites;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,22 +10,22 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.wanderlustapp.databinding.FragmentHomeBinding;
+import com.example.wanderlustapp.databinding.FragmentFavoritesBinding;
 
-public class HomeFragment extends Fragment {
+public class FavoritesFragment extends Fragment {
 
-    private FragmentHomeBinding binding;
+    private FragmentFavoritesBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        HomeViewModel homeViewModel =
-                new ViewModelProvider(this).get(HomeViewModel.class);
+        FavoritesViewModel dashboardViewModel =
+                new ViewModelProvider(this).get(FavoritesViewModel.class);
 
-        binding = FragmentHomeBinding.inflate(inflater, container, false);
+        binding = FragmentFavoritesBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textHome;
-        homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        final TextView textView = binding.textDashboard;
+        dashboardViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 
